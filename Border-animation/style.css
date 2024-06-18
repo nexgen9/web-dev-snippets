@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+ margin :0;
+ padding:0;
+ box-sizing: border-box;
+ font-family: "Robot condensed",sans-serif;
+
+}
+body{
+    display:flex;
+    justify-content: center;
+    -ms-align-items:center;
+    align-items: center;
+   min-height: 100vh;
+   background-color: #1E0342;
+
+}
+.box{
+    height: 400px;
+    width: 300px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -ms-align-itens:center;
+    background-color:rgba(0,0,0,0.5) ;
+    border-radius: 20px;
+    overflow: hidden;
+
+
+}
+.box h2{
+    color:#E2BBE9;
+    text-shadow: 2px 2px black;
+    font-size: 4em;
+    z-index: 2;
+}
+.box::before{
+    content:'';
+    position:absolute;
+    width: 170px;
+    height: 140%;
+    background:linear-gradient(#E2BBE9,#83B4FF) ;
+    animation: rotate 4s linear infinite;
+}
+.box::after{
+    content:'';
+    position:absolute;
+    background: #1E0342;
+    inset:5px;
+    border-radius:17px; ;
+}
+@keyframes rotate {
+    from{
+        transform:rotate(0deg) ;
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}

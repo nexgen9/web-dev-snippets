@@ -34,7 +34,7 @@
   .text {
     position: absolute;
    
-    left:30%;
+    left:25%;
     width: 0%;
     opacity: 0;
     color: white;
@@ -52,7 +52,7 @@
   .Btn:hover .sign {
     width: 30%;
     transition-duration: .3s;
-    padding-left: 20px;
+    padding-left: 8px;
   }
   /* hover effect button's text */
   .Btn:hover .text {
