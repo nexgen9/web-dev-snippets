@@ -40,7 +40,7 @@ body{
     position:absolute;
     width: 170px;
     height: 140%;
-    background:linear-gradient(#E2BBE9,#83B4FF) ;
+    background:linear-gradient(#B51B75,#3572EF) ;
     animation: rotate 4s linear infinite;
 }
 .box::after{
