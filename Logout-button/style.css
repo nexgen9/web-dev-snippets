@@ -11,7 +11,10 @@
     overflow: hidden;
     transition-duration: .3s;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.199);
-    background-color: rgb(255, 65, 65);
+    background-color: #254336;
+  }
+  body{
+    background-color: #DAD3BE;
   }
   
   /* plus sign */
@@ -28,7 +31,7 @@
   }
   
   .sign svg path {
-    fill: white;
+    fill: #DAD3BE;
   }
   /* text */
   .text {
@@ -37,7 +40,7 @@
     left:25%;
     width: 0%;
     opacity: 0;
-    color: white;
+    color: #DAD3BE;
     font-size: 1.2em;
     font-weight: 600;
     transition-duration: .3s;
